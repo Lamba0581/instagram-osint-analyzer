@@ -11,25 +11,20 @@ A Python-based Instagram OSINT analyzer for public-profile research and cybersec
 - Local JSON/SQLite-ready architecture
 - Streamlit dashboard-ready project structure
 
+## Cybersecurity Project Collection
+
+The `portfolio_projects/` directory also contains four educational Python projects:
+
+- Caesar Cipher encryption/decryption
+- Pixel-based image encryption/decryption
+- Password strength checker
+- Ethical network packet sniffer
+
+See [`portfolio_projects/README.md`](portfolio_projects/README.md) and [`portfolio_projects/OUTPUTS.md`](portfolio_projects/OUTPUTS.md).
+
 ## Ethical Use
 
-This project is intended for educational, authorized security research and OSINT learning. Only collect information that is publicly available and permitted by applicable laws and platform terms. Do not attempt to bypass authentication, access private accounts, obtain passwords, or defeat platform security controls.
-
-## Planned Architecture
-
-```text
-Username
-   ↓
-Python OSINT Engine
-   ├── Public profile data
-   ├── Public web references
-   ├── External links
-   └── Evidence + timestamps
-          ↓
-     JSON / SQLite
-          ↓
-   Streamlit Dashboard
-```
+These projects are intended for educational, authorized security research and cybersecurity learning. Only collect information or network traffic that you are authorized to access. Do not attempt to bypass authentication, access private accounts, obtain passwords, defeat platform security controls, or intercept private communications.
 
 ## Installation
 
@@ -37,7 +32,7 @@ Python OSINT Engine
 pip install -r requirements.txt
 ```
 
-## Run
+## Run Instagram OSINT Analyzer
 
 ```bash
 streamlit run app.py
@@ -45,4 +40,4 @@ streamlit run app.py
 
 ## Disclaimer
 
-The authors and contributors are not responsible for misuse of this project. Always obtain appropriate authorization and respect privacy, applicable law, and platform terms.
+The authors and contributors are not responsible for misuse of these projects. Always obtain appropriate authorization and respect privacy, applicable law, and platform terms.
